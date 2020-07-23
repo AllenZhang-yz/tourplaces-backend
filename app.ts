@@ -19,15 +19,14 @@ app.use(bodyParser.json());
 app.use('/uploads/images', express.static(path.join('uploads', 'images')));
 app.use(express.static(path.join('public')));
 
-app.use(
-  cors({
-    origin: 'http://localhost:3000',
-    credentials: true,
-    methods: 'GET,PATCH,POST,DELETE',
-    allowedHeaders: 'Content-Type,Authorization',
-  })
-);
-// app.use(cors());
+// app.use(
+//   cors({
+//     origin: 'http://localhost:3000',
+//     credentials: true,
+//     methods: 'GET,PATCH,POST,DELETE',
+//     allowedHeaders: 'Content-Type,Authorization',
+//   })
+// );
 
 app.use('/api/places', placesRoutes);
 app.use('/api/users', usersRoutes);
