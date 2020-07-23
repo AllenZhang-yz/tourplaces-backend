@@ -22,9 +22,7 @@
     "mongoose-unique-validator": "^2.0.3",
     "multer": "^1.4.2",
     "ts-node": "^8.10.2",
-    "uuid": "^8.2.0"
-  },
-  "devDependencies": {
+    "uuid": "^8.2.0",
     "@types/bcryptjs": "^2.4.2",
     "@types/cors": "^2.8.6",
     "@types/dotenv": "^8.2.0",
@@ -35,9 +33,11 @@
     "@types/multer": "^1.4.3",
     "@types/node": "^14.0.24",
     "@types/uuid": "^8.0.0",
+    "typescript": "^3.9.6"
+  },
+  "devDependencies": {
     "dotenv": "^8.2.0",
     "nodemon": "^2.0.4",
-    "ts-node-dev": "^1.0.0-pre.51",
-    "typescript": "^3.9.6"
+    "ts-node-dev": "^1.0.0-pre.51"
   }
 }
